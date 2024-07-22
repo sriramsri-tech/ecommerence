@@ -1,0 +1,98 @@
+/* DashBoard.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #ecf0f1;
+    font-family: 'Arial, sans-serif';
+}
+
+.dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f6f8;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-heading {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.total-amount {
+    background-color: #27ae60;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.total-amount h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.total-amount h2 {
+    margin: 10px 0 0 0;
+    font-size: 28px;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stat-card {
+    flex: 1 1 200px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stat-card h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.stat-card h3 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.stat-card button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stat-card button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.stat-card.products {
+    background-color: #3498db;
+}
+
+.stat-card.orders {
+    background-color: #e74c3c;
+}
+
+.stat-card.users {
+    background-color: #9b59b6;
+}
+
+.stat-card.out-of-stock {
+    background-color: #f39c12;
+}
+

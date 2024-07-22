@@ -1,0 +1,14 @@
+[
+  {
+    "name": "oppo f21",
+    "price": 245,
+    "description": "oppo",
+    "rating": 4.5,
+    "images": [],
+    "category": "MobilePhone", 
+    "seller": "amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  }
+]
